@@ -1,0 +1,12 @@
+plugins {
+  id "org.sonarqube" version "5.1.0.4882"
+}
+
+sonar {
+  properties {
+    property "sonar.projectKey", "wjdgus06_WebGoat"
+    property "sonar.organization", "wjdgus06"
+    property "sonar.host.url", "https://sonarcloud.io"
+    property "sonar.sources", "src/main/java/org/owasp/webgoat/lessons"
+  }
+}
